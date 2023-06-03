@@ -1,0 +1,50 @@
+body{
+    background: #1C6EA4;
+    background: -moz-radial-gradient(center, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+    background: -webkit-radial-gradient(center, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+    background: radial-gradient(ellipse at center, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+}
+.mainbox{
+    display:flex;
+    text-align:center;
+    font-size:30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    height:100vh;
+    width:100%;
+}
+.box1{
+    display:flex;
+    text-align:center;
+    font-size:30px;
+    border-radius: 130px;
+    height:200px;
+    width:200px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 20px 20px 45px 20px #000000;
+  
+}
+.image{
+    width: 100%;
+    height: 100%; 
+    border-radius: 130px;
+}
+.box2{
+    width: 100%;
+    height: 200px;
+}
+.box3 p{
+
+        color: #e0dfdc;
+        letter-spacing: .1em;
+        text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+     
+}
+
+  @media (max-width: 800px) {
+    .mainbox {
+      flex-direction: column;
+    }
+  }
